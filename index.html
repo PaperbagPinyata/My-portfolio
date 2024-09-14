@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skanda :D</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="mediaqueries.css"/>
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="ricky">
+            <img class="vanakkam" src="assets/Untitled.png">
+        </div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+
+                <li><a href="#contact">Contact</a></li>
+                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">Bruh</a>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Abishek Skanda</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <img src="assets/arrow.png">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+                <a href="#bruh" onclick="toggleMenu()">Bruh</a>
+            </div>
+        </div>
+    </nav>
+    
+    <section class="profile">
+        
+    <div style="display: flex; justify-content: center;">
+        
+        <div class="section__pic-container">
+            <img class="shin" src="assets/359397.512.webp" alt="Portfolio Cover Image">
+            
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1"> I'm </p>
+            <h1 class="title">Abishek Skanda G</h1>
+            <p class="section__text__p2">An Engineering Student 💀</p>
+        
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('https://github.com/PaperbagPinyata?tab=repositories')">
+                 My Work
+                 </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="social-container">
+                <img src="/assets/linkedin.png" alt="My LinkedIn" class="icon" onclick="location.href='https://linkedin.com'"/>
+                <img src="assets/leetcode.svg" alt="My LeetCode" class="icon" onclick="location.href='https://leetcode.com/u/AbishekSkanda/'"/>
+            </div>
+        </div>
+    </div>
+    </section>
+    <section id="about">
+        <div class="head">
+            <p class="he"> About Me </p>
+        </div>
+        <div class="content">
+            <p class="cont">
+                Hi, I'm Abishek Skanda from Chennai, India, currently a first-year student at SRMIST KTR. I have a strong interest in technology and innovation, and this portfolio serves as a way to share my journey and experiences. I'm always eager to learn, improve, and take on new challenges as I build my skills in the field.
+            </p>
+        </div>
+        <div class="content">
+            <p class="cont">
+                Am Eager to learn more and so far I've dipped my feet into Programming languages such as Python and C (and Scratch :D) alongside learning web development with HTML and CSS. I'm also exploring databases with MySQL and enhancing my creativity using Blender for 3D modeling. This portfolio showcases my journey as I continue to grow and learn in the world of tech.
+            </p>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="assets/email.png" alt="Email Icon" class="icon contact-icon"/>
+                <p><a href="mailto:itsabishekskanda@gmail.com">itsabishekskanda@gmail.com</a></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
