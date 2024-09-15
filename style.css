@@ -255,3 +255,11 @@ section{
 .contact-info-container p {
     font-size: larger;
 }
+.down{
+    height: 25px;
+    cursor: pointer;
+}
+.rhs{
+    display: flex;
+    justify-content: right;
+}
